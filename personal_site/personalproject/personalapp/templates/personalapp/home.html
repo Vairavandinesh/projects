@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    {% load static %}
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>RESUME</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div  class="card card-body ">
+                    <img  src="{% static 'images/dinesh1.jpg' %}">
+                    <p><b>Hello i'm vairavandinesh</b>,i love coding and building projects</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body ">
+                    <b>Description</b><br>
+                    A Bachelor of Engineering Graduate in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning.
+                    <br>
+                    Proficient in Python,Django,coding, and HTML,with strong problem-solving skills.<br>
+                    Completed internships in NSIC and certifications in Python(NPTEL) and Deep Learning Fundamentals(NVIDIA).<br>
+                    Aspiring to contribute in the Field of Aritificial Intelligence and Machine Learning by leveraging technical expertise and a passion for creating impactful solutions.
+                    <ul class="social-links">
+                        <li><a href='https://leetcode.com/u/Vairavandinesh/'><img class="social" src="{% static 'images/leetcode_logo.jpg' %}"></a></li>
+                        <li><a href="https://github.com/Vairavandinesh"><img class="social" src="{% static 'images/github_logo.png' %}"></a></li>
+                        <li><a href="https://www.linkedin.com/in/vairavandinesh/"><img class="social" src="{% static 'images/linkedin_logo.webp' %}"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body ">
+                    <b>Work Experience</b><hr>
+                    <b>Intern - National Small Industries Corporation(NSIC)</b>
+                    Duration: 1 month
+                    Gained practical Experience in Artificial intelligence and machine Learning
+                    Developed and Trained Machine learning models using real-world datasets
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body ">
+                    <b>What I Know</b><hr>
+                    Python, Django, HTML, CSS, JS, bootstrap, SQL, Git and Github, AI&ML
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body ">
+                    <b>Projects</b><hr>
+                    <b>Django</b> - portfolio site<br>
+                    <b>Machine learning</b> - Speech Emotion Recognition Model using LSTM, trained with real World datasets such as TESS and RAVDESS, acheived an accuracy of 87%
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body ">
+                    <b>Certifications</b>
+                    <hr>
+                    NPTEL - Joy of computing using Python<br>
+                    NVIDIA - Fundamentals of Deep Learning<br>
+                    MATLAB - Onramp[basics of MATLAB]
+                    <b>Paper Published</b>
+                    published a paper on <i>Optimized Multimodal Emotion Recognition Using Long Short Term Memory [LSTM]</i> in the International Conference on Contemporaneity of Language and Literature in the Robotized Millennium
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
