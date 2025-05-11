@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Result</title>
+</head>
+<body>
+    <h1>Predicted Emotion: {{ emotion }}</h1>
+    <audio controls>
+        <source src="{{ file_url }}" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+    <a href="/">Upload another file</a>
+</body>
+</html>
